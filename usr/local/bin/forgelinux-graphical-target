@@ -32,7 +32,7 @@ selection=$(get_driver)
 
 echo
 echo "#################################"
-echo "Start arcolinux-graphical-target"
+echo "Start forgeinux-graphical-target"
 echo "#################################"
 echo
 echo "#################################"
@@ -55,6 +55,6 @@ fi
 
 echo
 echo "#################################"
-echo "End arcolinux-graphical-target"
+echo "End forgeinux-graphical-target"
 echo "#################################"
 echo

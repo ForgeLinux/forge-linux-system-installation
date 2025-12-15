@@ -18,7 +18,7 @@ is_package_installed() {
 
 
 echo "######################################################"
-echo "Begin arcolinux-set-bootloader"
+echo "Begin forgeinux-set-bootloader"
 echo "######################################################"
 
 echo "installing systemd-boot packages"
@@ -35,6 +35,6 @@ fi
 
 echo
 echo "#################################"
-echo "End arcolinux-set-bootloader"
+echo "End forgeinux-set-bootloader"
 echo "#################################"
 echo

@@ -24,7 +24,7 @@
 
 echo
 echo "#############################################################"
-echo "Start arcolinux-nvidia-settings only for wayland desktops"
+echo "Start forgeinux-nvidia-settings only for wayland desktops"
 echo "#############################################################"
 echo
 
@@ -94,7 +94,7 @@ if 	[ -f /usr/share/wayland-sessions/hyprland.desktop ] || \
 			echo "################### Updating Grub"
 			echo "################################################################"
 			echo
-			grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ArcoLinux
+			grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ForgeLinux
 			grub-mkconfig -o /boot/grub/grub.cfg
 
 
@@ -105,7 +105,7 @@ if 	[ -f /usr/share/wayland-sessions/hyprland.desktop ] || \
 
 
 		# SYSTEMD-BOOT
-		if pacman -Qi arcolinux-bootloader-systemd-boot-git &> /dev/null; then
+		if pacman -Qi forgeinux-bootloader-systemd-boot-git &> /dev/null; then
 
 			echo
 			echo "################################################################"
@@ -299,6 +299,6 @@ fi
 
 echo
 echo "#################################"
-echo "End arcolinux-nvidia-settings"
+echo "End forgeinux-nvidia-settings"
 echo "#################################"
 echo

@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#################################"
-echo "Start arcolinux-before"
+echo "Start forgeinux-before"
 echo "#################################"
 echo
 echo "#################################"
@@ -16,9 +16,9 @@ echo
 echo "#################################"
 echo "Changing into our own linux.preset"
 echo "#################################"
-mv -v /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
+mv -v /etc/mkinitcpio.d/forgeinux /etc/mkinitcpio.d/linux.preset
 echo
 echo "#################################"
-echo "End arcolinux-before"
+echo "End forgeinux-before"
 echo "#################################"
 echo

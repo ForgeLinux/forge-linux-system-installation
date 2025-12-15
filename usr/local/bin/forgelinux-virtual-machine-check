@@ -16,7 +16,7 @@
 ###############################################################################
 
 echo "###########################################"
-echo "Start ArcoLinux virtual machine check"
+echo "Start ForgeLinux virtual machine check"
 echo "###########################################"
 
 result=$(systemd-detect-virt)
@@ -175,8 +175,8 @@ if [ $result = "none" ];
 			echo "Removed qemu-guest-agent"
 		fi
 
-		if [ -f /usr/local/bin/arcolinux-virtual-machine-check ]; then
-	   		rm /usr/local/bin/arcolinux-virtual-machine-check
+		if [ -f /usr/local/bin/forgeinux-virtual-machine-check ]; then
+	   		rm /usr/local/bin/forgeinux-virtual-machine-check
 			echo "Removed avm-check script"
 		fi
 
@@ -187,5 +187,5 @@ if [ $result = "none" ];
 fi
 
 echo "########################################"
-echo "End ArcoLinux virtual machine check"
+echo "End ForgeLinux virtual machine check"
 echo "########################################"

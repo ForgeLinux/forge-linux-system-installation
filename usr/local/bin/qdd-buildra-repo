@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo '
-[buildra_repo]
+[forge_linux_repo]
 SigLevel = Never
-Server = https://buildra.github.io/$repo/$arch
+Server = https://forgelinux.github.io/$repo/$arch
 ' | sudo tee --append /etc/pacman.conf
 sudo pacman -Syyu
