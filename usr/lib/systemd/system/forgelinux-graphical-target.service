@@ -4,7 +4,7 @@ Before=systemd-user-sessions.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/forgeinux-graphical-target
+ExecStart=/usr/local/bin/forgelinux-graphical-target
 
 [Install]
 WantedBy=multi-user.target

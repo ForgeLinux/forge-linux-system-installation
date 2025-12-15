@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#################################"
-echo "Start forgeinux-before"
+echo "Start forgelinux-before"
 echo "#################################"
 echo
 echo "#################################"
@@ -16,9 +16,9 @@ echo
 echo "#################################"
 echo "Changing into our own linux.preset"
 echo "#################################"
-mv -v /etc/mkinitcpio.d/forgeinux /etc/mkinitcpio.d/linux.preset
+mv -v /etc/mkinitcpio.d/forgelinux /etc/mkinitcpio.d/linux.preset
 echo
 echo "#################################"
-echo "End forgeinux-before"
+echo "End forgelinux-before"
 echo "#################################"
 echo
