@@ -18,7 +18,7 @@ is_package_installed() {
 
 
 echo "######################################################"
-echo "Begin forgeinux-set-bootloader"
+echo "Begin forgelinux-set-bootloader"
 echo "######################################################"
 
 echo "installing systemd-boot packages"
@@ -35,6 +35,6 @@ fi
 
 echo
 echo "#################################"
-echo "End forgeinux-set-bootloader"
+echo "End forgelinux-set-bootloader"
 echo "#################################"
 echo

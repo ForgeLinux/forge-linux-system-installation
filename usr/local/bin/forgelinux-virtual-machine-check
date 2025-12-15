@@ -175,8 +175,8 @@ if [ $result = "none" ];
 			echo "Removed qemu-guest-agent"
 		fi
 
-		if [ -f /usr/local/bin/forgeinux-virtual-machine-check ]; then
-	   		rm /usr/local/bin/forgeinux-virtual-machine-check
+		if [ -f /usr/local/bin/forgelinux-virtual-machine-check ]; then
+	   		rm /usr/local/bin/forgelinux-virtual-machine-check
 			echo "Removed avm-check script"
 		fi
 

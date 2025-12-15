@@ -32,7 +32,7 @@ selection=$(get_driver)
 
 echo
 echo "#################################"
-echo "Start forgeinux-graphical-target"
+echo "Start forgelinux-graphical-target"
 echo "#################################"
 echo
 echo "#################################"
@@ -55,6 +55,6 @@ fi
 
 echo
 echo "#################################"
-echo "End forgeinux-graphical-target"
+echo "End forgelinux-graphical-target"
 echo "#################################"
 echo
